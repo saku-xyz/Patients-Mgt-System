@@ -2,12 +2,7 @@
 session_start();
 $db=mysqli_connect('localhost','root','','hospital_mgt');
 $errors= array();
-$fullname="";
-$pass="";
 
-//$con=mysqli_connect($servername, $username, $password1, $db) or die("connection failed");
-//$mysqli=new mysqli($servername, $username, $password1, $db);
-//log user in from login page
 if (isset($_POST['login']))
 {
     $username= ($_POST['username']);
