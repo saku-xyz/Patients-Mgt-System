@@ -174,7 +174,7 @@ $webResult = mysqli_query($db, $websiteSQL);
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h4 class="modal-title" id="memberModalLabel">Edit User Detail</h4>
+                                        <h4 class="modal-title" id="memberModalLabel">Edit Patient Details</h4>
                                     </div>
                                     <div class="dash">
 
